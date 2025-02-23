@@ -111,9 +111,9 @@ define(['pipAPI', 'underscore'], function (APIConstructor, _) {
 			},
 
 
-			sortingLabel1: 'Pleasant', //Response is coded as 0. 
-			sortingLabel2: 'Unpleasant',  //Response is coded as 1.
-			randomizeLabelSides: false, //IF false, then label1 is on the left, and label2 is on the right.
+			sortingLabel1: '好ましい', //Response is coded as 0. 
+			sortingLabel2: '好ましくない',  //Response is coded as 1.
+			randomizeLabelSides: ture, //IF false, then label1 is on the left, and label2 is on the right.
 
 			//The default font color of text in the task (e.g., for key labels).
 			fontColor: '#000000',
@@ -139,7 +139,7 @@ define(['pipAPI', 'underscore'], function (APIConstructor, _) {
 			responses: 2, //Change to 7 for a 1-7 rating
 			// When using 7 response options, 
 			// we will Extremely unpleasant, Moderately unpleasant, Slightly unpleasant, neutral, Slightly pleasant, Moderately pleasant, Extremely pleasant.
-			targetCat: 'Chinese symbol', //The name of the targets (used in the instructions)
+			targetCat: '図形', //The name of the targets (used in the instructions)
 
 			//For the example block (often practice)
 			exampleBlock_fixationDuration: -1,
@@ -149,10 +149,10 @@ define(['pipAPI', 'underscore'], function (APIConstructor, _) {
 
 			//Instructions text for the 2-responses version.
 			exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
-				'押せ the key <B>rightKey</B> if the targetCat is more rightAttribute than average. ' +
-				'Hit the <b>leftKey</b> key if it is more leftAttribute than average.<br/><br/>' +
-				'The items appear and disappear quickly.  ' +
-				'忘れんな！はげ！ to ignore the item that appears before the targetCat and evaluate only the targetCat.<br/><br/></p>' +
+				'まず，文章が呈示され，次に図形が呈示されるので文章は無視して図形がどちらかというと視覚的にrightAttribute場合は，<B>rightKey</B>を押してください。' +
+				'また，呈示される図形が視覚的にleftAttribute場合は<b>leftKey</b> を押してください。<br/><br/>' +
+				'文章は素早く現れて，すぐに消えます。  ' +
+				'targetCatの前に呈示される文章は無視し， targetCatのみを評価することを忘れないでください.<br/><br/></p>' +
 				'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
 				'When you are ready to try a few practice responses, hit the <b>space bar</b>.</p>' +
 				'<p style="font-size:12px; text-align:center; font-family:arial">' +
