@@ -10,18 +10,18 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				nameForLogging : 'Black people', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {image : 'b01.jpg'}, 
-					{image : 'b02.jpg'}, 
-					{image : 'b03.jpg'}, 
-					{image : 'b04.jpg'}, 
-					{image : 'b05.jpg'}, 
-					{image : 'b06.jpg'}, 
-					{image : 'b07.jpg'}, 
-					{image : 'b08.jpg'}, 
-					{image : 'b09.jpg'}, 
-					{image : 'b10.jpg'}, 
-					{image : 'b11.jpg'}, 
-					{image : 'b12.jpg'}]
+				    {image : 'b01.JPG'}, 
+					{image : 'b02.JPG'}, 
+					{image : 'b03.JPG'}, 
+					{image : 'b04.JPG'}, 
+					{image : 'b05.JPG'}, 
+					{image : 'b06.JPG'}, 
+					{image : 'b07.JPG'}, 
+					{image : 'b08.JPG'}, 
+					{image : 'b09.JPG'}, 
+					{image : 'b10.JPG'}, 
+					{image : 'b11.JPG'}, 
+					{image : 'b12.JPG'}]
 
 			}, 
 			{
@@ -29,18 +29,18 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				nameForLogging : 'White people', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {image : 'w01.jpg'}, 
-					{image : 'w02.jpg'}, 
-					{image : 'w03.jpg'}, 
-					{image : 'w04.jpg'}, 
-					{image : 'w05.jpg'}, 
-					{image : 'w06.jpg'}, 
-					{image : 'w07.jpg'}, 
-					{image : 'w08.jpg'}, 
-					{image : 'w09.jpg'}, 
-					{image : 'w10.jpg'}, 
-					{image : 'w11.jpg'}, 
-					{image : 'w12.jpg'}]
+				    {image : 'w01.JPG'}, 
+					{image : 'w02.JPG'}, 
+					{image : 'w03.JPG'}, 
+					{image : 'w04.JPG'}, 
+					{image : 'w05.JPG'}, 
+					{image : 'w06.JPG'}, 
+					{image : 'w07.JPG'}, 
+					{image : 'w08.JPG'}, 
+					{image : 'w09.JPG'}, 
+					{image : 'w10.JPG'}, 
+					{image : 'w11.JPG'}, 
+					{image : 'w12.JPG'}]
 			}
 		],
 
@@ -48,7 +48,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		{
 			nameForLogging : 'examplePrime', //Will be used in the logging
 			//An array of all media objects for this category.
-			mediaArray : [{image : 'ampchair.jpg'}, {image : 'amplamp.jpg'}, {image : 'ampumbrella.jpg'}]
+			mediaArray : [{image : 'ampchair.JPG'}, {image : 'amplamp.JPG'}, {image : 'ampumbrella.JPG'}]
 		},
 
 		base_url : {//Where are your images at?
