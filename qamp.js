@@ -151,11 +151,11 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			//Instructions text for the 2-responses version.
 			exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
 			'まず，文章が呈示され，次に図形が呈示されるので文章は無視して図形がどちらかというと視覚的に rightAttribute 場合は，<B>rightKey</B>を押してください。 ' + 
-			'Hit the <b>leftKey</b> key if it is more leftAttribute than average.<br/><br/>' + 
-			'The items appear and disappear quickly.  ' + 
-			'Remember to ignore the item that appears before the targetCat and evaluate only the targetCat.<br/><br/></p>'  + 
+			'また，呈示される図形が視覚的に leftAttribute 場合は<b>leftKey</b> を押してください。<br/><br/>' + 
+			'文章は素早く現れて，すぐに消えます。  ' + 
+			'targetCat の前に呈示される文章は無視し， targetCat のみを評価することを忘れないでください.<br/><br/></p>'  + 
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
-			'When you are ready to try a few practice responses, hit the <b>space bar</b>.</p>' + 
+			'練習する準備ができましたら,  <b>スペースキー</b>を押してください.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
 			'<color="000000">[Round 1 of nBlocks]</p></div>',
 			firstBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
