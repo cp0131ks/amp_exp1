@@ -23,7 +23,27 @@ define(['pipAPI', 'https://cp0131ks.github.io/amp_exp1/qamp.js'], function(APICo
 				    {image : 'w01.JPG'}, 
 					{image : 'w02.JPG'}
 				]
+			},
+			{
+				nameForFeedback : 'Yellow people',  //Will be used in the user feedback 
+				nameForLogging : 'Yelow people', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {image : 'y01.JPG'}, 
+					{image : 'y02.JPG'}
+				]
+			},
+			{
+				nameForFeedback : 'Grey people',  //Will be used in the user feedback 
+				nameForLogging : 'Grey people', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {image : 'g01.JPG'}, 
+					{image : 'g02.JPG'}
+				]
 			}
+
+		
 		],
 
 		examplePrimeStimulus : 
