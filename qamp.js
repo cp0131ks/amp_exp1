@@ -140,7 +140,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			responses : 2, //Change to 7 for a 1-7 rating
 	        // When using 7 response options, 
 	        // we will Extremely unpleasant, Moderately unpleasant, Slightly unpleasant, neutral, Slightly pleasant, Moderately pleasant, Extremely pleasant.
-		    targetCat : 'Chinese symbol', //The name of the targets (used in the instructions)
+		    targetCat : '図形', //The name of the targets (used in the instructions)
 			
 			//For the example block (often practice)
 			exampleBlock_fixationDuration : -1, 
