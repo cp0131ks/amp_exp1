@@ -170,7 +170,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'<color="000000">[Round 2 of nBlocks]</p></div>',
 			middleBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
 			'次のセクションに進んでください。 ' + 
-			'ルールは全く同じです。:<br/><br/>' + 
+			'ルールは全く同じです。<br/><br/>' + 
 			'各targetCatに集中し，他のtargetCatよりも視覚的にrightAttributeと評価する場合は<b>rightKey</b> キーを押してください。 ' + 
 			'また，他のtargetCatよりも視覚的にleftAttributeの場合は<b>leftKey</b> キーを押してください。<br/><br/>' + 
 			'それぞれのtargetCatを評価し，その前に呈示される文章は評価しないでください。 ' + 
@@ -181,7 +181,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 			lastBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
 			'最後のセクションに向けて、準備はよろしいでしょうか。 ' + 
-			'ルールは全く同じです。:<br/><br/>' + 
+			'ルールは全く同じです。<br/><br/>' + 
 			'各targetCatに集中し，他のtargetCatよりも視覚的にrightAttributeと評価する場合は<b>rightKey</b> キーを押してください。 ' + 
 			'また，他のtargetCatよりも視覚的にleftAttributeの場合は<b>leftKey</b> キーを押してください。<br/><br/>' + 
 			'それぞれのtargetCatを評価し，その前に呈示される文章は評価しないでください。 ' + 
@@ -234,7 +234,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 
 			endText: '<div><p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial"><color="FFFFFF">'+
-			'You have completed the task<br/><br/>Press "space" to continue to next task.</p></div>', 
+			'全てのセクションが終了しました。<br/><br/>スペースを押して次に進んでください。</p></div>', 
 			
 			//The feedback messages:
 			//The task will save a "feedback" variable that details the number of each type of responses after primes of each category. 
