@@ -108,7 +108,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			//The mask stimulus 
 			maskStimulus : {
 				css : {color:'000000', 'font-size':'3em'}, 
-				media : {image:'ampmask.jpg'}
+				media : {image:'ampmaskr.jpg'}
 			}, 
 			
 			
