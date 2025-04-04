@@ -6,40 +6,26 @@ define(['pipAPI', 'https://cp0131ks.github.io/amp_exp1/qamp.js'], function(APICo
 	return ampExtension({
 		primeCats :  [
 			{
-				nameForFeedback : 'Black people',  //Will be used in the user feedback 
-				nameForLogging : 'Black people', //Will be used in the logging
+				nameForFeedback : 'Man',  //Will be used in the user feedback 
+				nameForLogging : 'Man', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {image : 'b01.JPG'}, 
-					{image : 'b02.JPG'}
+				    {image : 'm01.jPG'}, 
+					{image : 'm02.jPG'},
+					{image : 'm03.jPG'},
+					{image : 'm04.jPG'}
 				]
 
 			}, 
 			{
-				nameForFeedback : 'White people',  //Will be used in the user feedback 
-				nameForLogging : 'White people', //Will be used in the logging
+				nameForFeedback : 'Woman',  //Will be used in the user feedback 
+				nameForLogging : 'Woman', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {image : 'w01.JPG'}, 
-					{image : 'w02.JPG'}
-				]
-			},
-			{
-				nameForFeedback : 'Yellow people',  //Will be used in the user feedback 
-				nameForLogging : 'Yelow people', //Will be used in the logging
-				//An array of all media objects for this category.
-				mediaArray : [
-				    {image : 'y01.JPG'}, 
-					{image : 'y02.JPG'}
-				]
-			},
-			{
-				nameForFeedback : 'Grey people',  //Will be used in the user feedback 
-				nameForLogging : 'Grey people', //Will be used in the logging
-				//An array of all media objects for this category.
-				mediaArray : [
-				    {image : 'g01.JPG'}, 
-					{image : 'g02.JPG'}
+				    {image : 'wo01.jPG'}, 
+					{image : 'wo02.jPG'},
+					{image : 'wo03.jPG'},
+					{image : 'wo04.jPG'}
 				]
 			}
 
