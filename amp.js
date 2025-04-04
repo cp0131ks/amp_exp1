@@ -10,10 +10,10 @@ define(['pipAPI', 'https://cp0131ks.github.io/amp_exp1/qamp.js'], function(APICo
 				nameForLogging : 'Man', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {image : 'm01.jPG'}, 
-					{image : 'm02.jPG'},
-					{image : 'm03.jPG'},
-					{image : 'm04.jPG'}
+				    {image : 'm01.jpg'}, 
+					{image : 'm02.jpg'},
+					{image : 'm03.jpg'},
+					{image : 'm04.jpg'}
 				]
 
 			}, 
@@ -22,10 +22,10 @@ define(['pipAPI', 'https://cp0131ks.github.io/amp_exp1/qamp.js'], function(APICo
 				nameForLogging : 'Woman', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {image : 'wo01.jPG'}, 
-					{image : 'wo02.jPG'},
-					{image : 'wo03.jPG'},
-					{image : 'wo04.jPG'}
+				    {image : 'wo01.jpg'}, 
+					{image : 'wo02.jpg'},
+					{image : 'wo03.jpg'},
+					{image : 'wo04.jpg'}
 				]
 			}
 
