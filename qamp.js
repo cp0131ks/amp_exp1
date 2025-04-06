@@ -144,9 +144,9 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			
 			//For the example block (often practice)
 			exampleBlock_fixationDuration : -1, 
-			exampleBlock_primeDuration : 100, 
-			exampleBlock_postPrimeDuration : 100, 
-			exampleBlock_targetDuration : 300, 
+			exampleBlock_primeDuration : 75, 
+			exampleBlock_postPrimeDuration : 125, 
+			exampleBlock_targetDuration : 100, 
 			
 			//Instructions text for the 2-responses version.
 			exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
