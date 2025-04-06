@@ -126,8 +126,8 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				image : 'https://baranan.github.io/minno-tasks/images/ampImages'
 			}, 
 
-			trialsInBlock : [40, 40, 40], //Number of trials in each block 
-			trialsInExample : 3, //Change to 0 if you don't want an example block
+			trialsInBlock : [50, 50], //Number of trials in each block 
+			trialsInExample : 2, //Change to 0 if you don't want an example block
 			
 			//Duration parameters.
 			fixationDuration : -1, //It means that by default we do not use fixation.
