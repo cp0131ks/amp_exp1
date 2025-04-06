@@ -14,14 +14,9 @@ define(['pipAPI', 'https://cp0131ks.github.io/amp_exp1/qamp.js'], function(APICo
 					{image : 'm02.jpg'},
 					{image : 'm03.jpg'},
 					{image : 'm04.jpg'},
-					{word: 'Paradise'},
-                    {word: 'Pleasure'},
-                    {word: 'Cheer'},
-                    {word: 'Splendid'},
-                    {word: 'Love'},
-                    {word: 'Smile'},
-                    {word: 'Friend'},
-                    {word: 'Enjoy'}
+					{word: '男性は傲慢だ'},
+                    {word: '男性は傲慢であるべきだ'}
+                  
 				]
 
 			}, 
