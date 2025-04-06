@@ -159,18 +159,16 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
 			'<color="000000">[Round 1 of nBlocks]</p></div>',
 			firstBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
-			"いくつか見逃してしまっても，心配しないでください。 " + 
-			'あなたの直感に従ってください。<br/><br/>' + 
+			"いくつか見逃してしまっても，心配せずにあなたの直感に従ってください。<br/><br/>'" + 
 			'各targetCatに集中し，他のtargetCatよりも視覚的にrightAttributeと評価する場合は<b>rightKey</b> キーを押してください。 ' + 
 			'また，他のtargetCatよりも視覚的にleftAttributeの場合は<b>leftKey</b> キーを押してください。<br/><br/>' + 
 			'それぞれのtargetCatを評価し，その前に呈示される文章は評価しないでください。 ' + 
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
-			'準備ができましたら， <b>スペースキー</b>を押してください。</p>' + 
+			'本番の準備ができましたら， <b>スペースキー</b>を押してください。</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
 			'<color="000000">[Round 2 of nBlocks]</p></div>',
 			middleBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
-			'次のセクションに進んでください。 ' + 
-			'ルールは全く同じです。<br/><br/>' + 
+			'次のセクションに進んでください。ルールは全く同じです。<br/><br/> ' + 
 			'各targetCatに集中し，他のtargetCatよりも視覚的にrightAttributeと評価する場合は<b>rightKey</b> キーを押してください。 ' + 
 			'また，他のtargetCatよりも視覚的にleftAttributeの場合は<b>leftKey</b> キーを押してください。<br/><br/>' + 
 			'それぞれのtargetCatを評価し，その前に呈示される文章は評価しないでください。 ' + 
