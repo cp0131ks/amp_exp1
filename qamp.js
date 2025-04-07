@@ -11,10 +11,10 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 	**/
 
 	function ampExtension(options)
-	{
+	{   
 		var API = new APIConstructor();
 		var piCurrent = API.getCurrent();
-
+        
 		//Here we set the settings of our task. Read the comments to learn what means.
 		//You can also do that from the outside, with a dedicated jsp file.
 		var ampObj = 
