@@ -33,15 +33,15 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			//The prime categories.
 			primeCats :  [
 				{
-					nameForFeedback : 'positive words',  //Will be used in the user feedback 
-					nameForLogging : 'positive', //Will be used in the logging
+					nameForFeedback : '男性',  //Will be used in the user feedback 
+					nameForLogging : '男性', //Will be used in the logging
 					//An array of all media objects for this category.
-					mediaArray : [{word : 'Wonderful'}, {word : 'Great'}]
+					mediaArray : [{word : '男性は傲慢だ'}, {word : '男性は子どもらしい'}]
 				}, 
 				{
-					nameForFeedback : 'negative words',  //Will be used in the user feedback 
-					nameForLogging : 'negative', //Will be used in the logging
-					mediaArray : [{word : 'Awful'}, {word : 'Horrible'}]
+					nameForFeedback : '女性',  //Will be used in the user feedback 
+					nameForLogging : '女性', //Will be used in the logging
+					mediaArray : [{word : '女性は傲慢だ'}, {word : '男性は子どもらしい'}]
 				}
 			],
 			examplePrimeStimulus : 
@@ -159,7 +159,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
 			'<color="000000">[Round 1 of nBlocks]</p></div>',
 			firstBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
-			"いくつか見逃してしまっても，心配せずにあなたの直感に従ってください。<br/><br/>'" + 
+			"いくつか見逃してしまっても，心配せずにあなたの直感に従ってください。<br/><br/>" + 
 			'各targetCatに集中し，他のtargetCatよりも視覚的にrightAttributeと評価する場合は<b>rightKey</b> キーを押してください。 ' + 
 			'また，他のtargetCatよりも視覚的にleftAttributeの場合は<b>leftKey</b> キーを押してください。<br/><br/>' + 
 			'それぞれのtargetCatを評価し，その前に呈示される文章は評価しないでください。 ' + 
