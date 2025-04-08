@@ -127,7 +127,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			}, 
 
 			trialsInBlock : [50, 50], //Number of trials in each block 
-			trialsInExample : 2, //Change to 0 if you don't want an example block
+			trialsInExample : 5, //Change to 0 if you don't want an example block
 			
 			//Duration parameters.
 			fixationDuration : -1, //It means that by default we do not use fixation.
