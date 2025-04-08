@@ -38,10 +38,10 @@ define(['pipAPI', 'https://cp0131ks.github.io/amp_exp1/qamp.js'], function(APICo
                     {word: '男性は子どもらしい'},
 					{word: '男性は成熟している'},
                     {word: '男性は感情的だ'},
-					{word: '男性は<br>傲慢<br>であるべきだ'},
-                    {word: '男性は<br>子どもらしく<br>あるべきだ'},
-					{word: '男性は<br>成熟している<br>べきだ'},
-                    {word: '男性は<br>感情的である<br>べきだ'}
+					{word: '男性は傲慢であるべきだ'},
+                    {word: '男性は子どもらしくあるべきだ'},
+					{word: '男性は成熟しているべきだ'},
+                    {word: '男性は感情的であるべきだ'}
                   
 				]
 
