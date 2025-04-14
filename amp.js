@@ -31,7 +31,7 @@ define(['pipAPI', 'https://cp0131ks.github.io/amp_exp1/qamp.js'], function(APICo
 			},
 			{
 				nameForFeedback : 'Manwd',  //Will be used in the user feedback 
-				nameForLogging : 'Manpwd', //Will be used in the logging
+				nameForLogging : 'Manwd', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word: '男性は傲慢だ'},
@@ -48,7 +48,7 @@ define(['pipAPI', 'https://cp0131ks.github.io/amp_exp1/qamp.js'], function(APICo
 			}, 
 			{
 				nameForFeedback : 'Womanwd',  //Will be used in the user feedback 
-				nameForLogging : 'Womanpwd', //Will be used in the logging
+				nameForLogging : 'Womanwd', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
 				    {word: '女性は傲慢だ'},
