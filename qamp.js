@@ -126,7 +126,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				image : 'https://baranan.github.io/minno-tasks/images/ampImages'
 			}, 
 
-			trialsInBlock : [1, 1], //Number of trials in each block 
+			trialsInBlock : [25,25], //Number of trials in each block 
 			trialsInExample : 5, //Change to 0 if you don't want an example block
 			
 			//Duration parameters.
@@ -150,10 +150,10 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			
 			//Instructions text for the 2-responses version.
 			exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
-			'まず，文章が呈示され，次に図形が呈示されるので文章は無視して図形がどちらかというと視覚的にrightAttribute場合は，<B>rightKey</B>を押してください。 ' + 
+			'まず，画像が呈示され，次に図形が呈示されるので文章は無視して図形がどちらかというと視覚的にrightAttribute場合は，<B>rightKey</B>を押してください。 ' + 
 			'また，呈示される図形が視覚的にleftAttribute場合は<b>leftKey</b> を押してください。<br/><br/>' + 
-			'文章は素早く現れて，すぐに消えます。  ' + 
-			'targetCatの前に呈示される文章は無視し， targetCatのみを評価することを忘れないでください.<br/><br/></p>'  + 
+			'画像は素早く現れて，すぐに消えます。  ' + 
+			'targetCatの前に呈示される画像は無視し， targetCatのみを評価することを忘れないでください.<br/><br/></p>'  + 
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
 			'練習する準備ができましたら,  <b>スペースキー</b>を押してください.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
@@ -171,8 +171,8 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'次のセクションに進んでください。ルールは全く同じです。<br/><br/> ' + 
 			'各targetCatに集中し，他のtargetCatよりも視覚的にrightAttributeと評価する場合は<b>rightKey</b> キーを押してください。 ' + 
 			'また，他のtargetCatよりも視覚的にleftAttributeの場合は<b>leftKey</b> キーを押してください。<br/><br/>' + 
-			'それぞれのtargetCatを評価し，その前に呈示される文章は評価しないでください。 ' + 
-			'呈示される文章に影響される可能性もありますが，直感に従ってください。<br/><br/>' + 
+			'それぞれのtargetCatを評価し，その前に呈示される画像は評価しないでください。 ' + 
+			'呈示される画像に影響される可能性もありますが，直感に従ってください。<br/><br/>' + 
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
 			'準備ができましたら， <b>スペースキー</b>を押してください。</b>.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
@@ -182,8 +182,8 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			'ルールは全く同じです。<br/><br/>' + 
 			'各targetCatに集中し，他のtargetCatよりも視覚的にrightAttributeと評価する場合は<b>rightKey</b> キーを押してください。 ' + 
 			'また，他のtargetCatよりも視覚的にleftAttributeの場合は<b>leftKey</b> キーを押してください。<br/><br/>' + 
-			'それぞれのtargetCatを評価し，その前に呈示される文章は評価しないでください。 ' + 
-			'呈示される文章に影響される可能性もありますが，直感に従ってください。<br/><br/>' + 
+			'それぞれのtargetCatを評価し，その前に呈示される画像は評価しないでください。 ' + 
+			'呈示される画像に影響される可能性もありますが，直感に従ってください。<br/><br/>' + 
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
 			'準備ができましたら， <b>スペースキー</b>を押してください。</b>.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
