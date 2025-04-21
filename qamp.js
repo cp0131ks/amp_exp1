@@ -162,7 +162,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			"いくつか見逃してしまっても，心配せずにあなたの直感に従ってください。<br/><br/>" + 
 			'各targetCatに集中し，他のtargetCatよりも視覚的にrightAttributeと評価する場合は<b>rightKey</b> キーを押してください。 ' + 
 			'また，他のtargetCatよりも視覚的にleftAttributeの場合は<b>leftKey</b> キーを押してください。<br/><br/>' + 
-			'それぞれのtargetCatを評価し，その前に呈示される文章は評価しないでください。 ' + 
+			'それぞれのtargetCatを評価し，その前に呈示される画像は評価しないでください。 ' + 
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
 			'本番の準備ができましたら， <b>スペースキー</b>を押してください。</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
