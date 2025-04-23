@@ -58,7 +58,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 					nameForLogging : 'イ音節文字',  //Will be used in the logging
 					//An array of all media objects for this category. The default is pic1-pic200.jpg
 					mediaArray : [
-						{Word : 'a'}
+						{word : 'a'}
 					]
 					
 				}
