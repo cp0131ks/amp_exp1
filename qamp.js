@@ -51,7 +51,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				mediaArray : [{word : 'Table'}, {word : 'Chair'}]
 			},
 			//The CSS for all the target stimuli (usually irrelevant because the targets are Chinese pictographs.
-			targetStimulusCSS : {color:'#000000','font-size':'8em'},
+			targetStimulusCSS : {color:'#000000','font-size':'10em'},
 			//The prime categories.
 			targetCats :  [
 				{
