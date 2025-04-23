@@ -165,11 +165,7 @@ define(['pipAPI', 'https://cp0131ks.github.io/amp_exp1/qamp.js'], function(APICo
 
 		
 		],
-		// ↓ ここでターゲット文字のフォントサイズを大きく指定
-        targetStimulusCSS: {
-	       color:      '#000000',  // 好きな色に変えられます
-	       'font-size': '4em'      // フォントサイズを大きめに
-		      },
+		
 		base_url : {//Where are your images at?
 			image : 'https://cp0131ks.github.io/amp_exp1/image'
 		}
