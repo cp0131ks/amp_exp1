@@ -55,7 +55,7 @@ define(['pipAPI', 'https://cp0131ks.github.io/amp_exp1/qamp.js'], function(APICo
 				nameForLogging : 'イ音節文字', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {word : 'A'}					
+				    {word : 'ꀀ'}					
                   
 				]
 
