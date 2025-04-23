@@ -49,6 +49,20 @@ define(['pipAPI', 'https://cp0131ks.github.io/amp_exp1/qamp.js'], function(APICo
 			mediaArray : [{image : 'ampchair.JPG'}, {image : 'amplamp.JPG'}, {image : 'ampumbrella.JPG'}]
 		},
 
+		targetCats :  [
+			{
+				nameForFeedback : 'イ音節文字',  //Will be used in the user feedback 
+				nameForLogging : 'イ音節文字', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {word : 'A'}					
+                  
+				]
+
+			}
+
+		
+		],
 		base_url : {//Where are your images at?
 			image : 'https://cp0131ks.github.io/amp_exp1/image'
 		}
