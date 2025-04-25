@@ -29,7 +29,11 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				borderColor: 'lightblue'
 			}, 
 			//The CSS for all the prime stimuli.
-			primeStimulusCSS : {color:'#0000FF','font-size':'0.5em'},
+			primeStimulusCSS : { 
+				width: '10px', 
+				height: 'auto'
+			},
+			//primeStimulusCSS : {color:'#0000FF','font-size':'0.5em'},
 			//The prime categories.
 			primeCats :  [
 				{
