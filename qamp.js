@@ -30,7 +30,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 			}, 
 			//The CSS for all the prime stimuli.
 			primeStimulusCSS : { 
-				width: '200px', 
+				width: '400px', 
 				height: 'auto'
 			},
 			//primeStimulusCSS : {color:'#0000FF','font-size':'0.5em'},
