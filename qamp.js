@@ -55,7 +55,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				mediaArray : [{word : 'Table'}, {word : 'Chair'}]
 			},
 			//The CSS for all the target stimuli (usually irrelevant because the targets are Chinese pictographs.
-			targetStimulusCSS : {color:'#000000','font-size':'25em'},
+			targetStimulusCSS : {color:'#000000','font-size':'20em'},
 			//The prime categories.
 			targetCats :  [
 				{
@@ -111,7 +111,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 				image : 'https://baranan.github.io/minno-tasks/images/ampImages'
 			}, 
 
-			trialsInBlock : [1,1], //Number of trials in each block 
+			trialsInBlock : [5,5], //Number of trials in each block 
 			trialsInExample : 5, //Change to 0 if you don't want an example block
 			
 			//Duration parameters.
