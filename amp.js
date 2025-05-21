@@ -6,34 +6,146 @@ define(['pipAPI', 'https://cp0131ks.github.io/amp_exp1/qamp.js'], function(APICo
 	return ampExtension({
 		primeCats :  [
 			{
-				nameForFeedback : 'Manpc',  //Will be used in the user feedback 
-				nameForLogging : 'Manpc', //Will be used in the logging
+				nameForFeedback : 'Manpc_1',  //Will be used in the user feedback 
+				nameForLogging : 'Manpc_1', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {image : 'm01.jpg'}, 
-					{image : 'm02.jpg'},
-					{image : 'm03.jpg'},
-					{image : 'm04.jpg'},
-					{image : 'm05.jpg'}, 
-					{image : 'm06.jpg'},
-					{image : 'm07.jpg'},
-					{image : 'm08.jpg'}					
+				    {image : 'm01.jpg'}				
                   
 				]
 
 			}, 
 			{
-				nameForFeedback : 'Womanpc',  //Will be used in the user feedback 
-				nameForLogging : 'Womanpc', //Will be used in the logging
+				nameForFeedback : 'Manpc_2',  //Will be used in the user feedback 
+				nameForLogging : 'Manpc_2', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [ 
+					{image : 'm02.jpg'}				
+                  
+				]
+
+			}, 
+			{
+				nameForFeedback : 'Manpc_3',  //Will be used in the user feedback 
+				nameForLogging : 'Manpc_3', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {image : 'wo01.jpg'}, 
-					{image : 'wo02.jpg'},
-					{image : 'wo03.jpg'},
-					{image : 'wo04.jpg'},
-					{image : 'wo05.jpg'}, 
-					{image : 'wo06.jpg'},
-					{image : 'wo07.jpg'},
+					{image : 'm03.jpg'}
+
+				]
+
+			}, 
+			{
+				nameForFeedback : 'Manpc_4',  //Will be used in the user feedback 
+				nameForLogging : 'Manpc_4', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+					{image : 'm04.jpg'}					
+                  
+				]
+
+			}, 
+			{
+				nameForFeedback : 'Manpc_5',  //Will be used in the user feedback 
+				nameForLogging : 'Manpc_5', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+					{image : 'm05.jpg'}					
+                  
+				]
+
+			}, 
+			{
+				nameForFeedback : 'Manpc_6',  //Will be used in the user feedback 
+				nameForLogging : 'Manpc_6', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+					{image : 'm06.jpg'}					
+                  
+				]
+
+			}, 
+			{
+				nameForFeedback : 'Manpc_7',  //Will be used in the user feedback 
+				nameForLogging : 'Manpc_7', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+					{image : 'm07.jpg'}					
+                  
+				]
+
+			}, 
+			{
+				nameForFeedback : 'Manpc_8',  //Will be used in the user feedback 
+				nameForLogging : 'Manpc_8', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+					{image : 'm08.jpg'}					
+                  
+				]
+
+			},  
+			{
+				nameForFeedback : 'Womanpc_1',  //Will be used in the user feedback 
+				nameForLogging : 'Womanpc_1', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+				    {image : 'wo01.jpg'}
+				]
+			},
+			{
+				nameForFeedback : 'Womanpc_2',  //Will be used in the user feedback 
+				nameForLogging : 'Womanpc_2', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [ 
+					{image : 'wo02.jpg'}
+				]
+			},
+			{
+				nameForFeedback : 'Womanpc_3',  //Will be used in the user feedback 
+				nameForLogging : 'Womanpc_3', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+					{image : 'wo03.jpg'}
+				]
+			},
+			{
+				nameForFeedback : 'Womanpc_4',  //Will be used in the user feedback 
+				nameForLogging : 'Womanpc_4', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+					{image : 'wo04.jpg'}
+				]
+			},
+			{
+				nameForFeedback : 'Womanpc_5',  //Will be used in the user feedback 
+				nameForLogging : 'Womanpc_5', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+					{image : 'wo05.jpg'}
+				]
+			},
+			{
+				nameForFeedback : 'Womanpc_6',  //Will be used in the user feedback 
+				nameForLogging : 'Womanpc_6', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [ 
+					{image : 'wo06.jpg'}
+				]
+			},
+			{
+				nameForFeedback : 'Womanpc_7',  //Will be used in the user feedback 
+				nameForLogging : 'Womanpc_7', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
+					{image : 'wo07.jpg'}
+				]
+			},
+			{
+				nameForFeedback : 'Womanpc_8',  //Will be used in the user feedback 
+				nameForLogging : 'Womanpc_8', //Will be used in the logging
+				//An array of all media objects for this category.
+				mediaArray : [
 					{image : 'wo08.jpg'}
 				]
 			},
